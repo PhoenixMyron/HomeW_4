@@ -4,9 +4,9 @@
 // 2, 4 -> 16
 
 Console.Clear();
-Console.Write("Введите число: ");
+Console.Write("Введите 1-ое число: ");
 int n1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число: ");
+Console.Write("Введите 2-ое число: ");
 int n2 = Convert.ToInt32(Console.ReadLine()), result = n1, z = 0;
 for ( int count = 2; count <= n2; count++ )
 {
