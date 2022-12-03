@@ -10,7 +10,7 @@ void PrintArray(int[] arr)
         arr[i] = int.Parse(Console.ReadLine());
     }
     Console.WriteLine("Вывод массива:");
-    Console.WriteLine($"{string.Join(", ", arr)}");
+    Console.WriteLine($"[{string.Join(", ", arr)}]");
 
 }
 
